@@ -1,0 +1,12 @@
+Sitemap: http://www.marcelduran.com/sitemap.xml
+User-agent: *
+Crawl-delay: 10
+Disallow: /livecam/
+Disallow: /casa/
+Disallow: /googlemaps/
+Disallow: /vendetudo/
+Disallow: /reebok/
+Disallow: /google29d76ae4761589a6.html
+Disallow: /googlehostedservice.html
+Disallow: /y_key_e18bb0984113f167.html
+Disallow: /minifier.php
