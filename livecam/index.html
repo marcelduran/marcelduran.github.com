@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Marcel Duran :: livecam</title>
+        <style type="text/css">
+            body {background-color:black; text-align:center; padding-top:10%; color:lightskyblue;font-family:sans-serif;}
+        </style>
+    </head>
+    <body>
+        <div>
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="400" height="320" id="utv814387"><param name="flashvars" value="autoplay=false&amp;brand=embed&amp;cid=1977591"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://www.ustream.tv/flash/live/1/1977591"/><embed flashvars="autoplay=false&amp;brand=embed&amp;cid=1977591" width="400" height="320" allowfullscreen="true" allowscriptaccess="always" id="utv814387" name="utv_n_522491" src="http://www.ustream.tv/flash/live/1/1977591" type="application/x-shockwave-flash" /></object>
+        </div>
+        <div id="localtime"></div>
+        <script>(function(){var d=document,h=d.getElementsByTagName('script')[0],s=d.createElement('script');_gaq=[['_setAccount','UA-3587044-1'],['_trackPageview']];s.src='http://www.google-analytics.com/ga.js';s.async=true;h.parentNode.insertBefore(s,h);}());</script>
+        <script>
+        (function(){
+            setInterval(function () {
+                var d = new Date(),
+                    time = d.getTime(),
+                    month = (d.getMonth() + 1).toString(),
+                    date = d.getDate().toString(),
+                    dm =  parseInt(month + (date.length > 1 ? date : '0' + date), 10),
+                    zone = dm >= 313 && dm <= 1107 ? -7 : -8,
+                    d2 = new Date(time + ((d.getTimezoneOffset() / 60) + zone) * 36e5),
+                    localtime = document.getElementById('localtime');
+                
+                localtime.innerHTML = 'Local time: ' + d2.toLocaleDateString() + ' ' + d2.toLocaleTimeString();
+            }, 1e3);
+        }());
+        </script>
+    </body>
+</html>
