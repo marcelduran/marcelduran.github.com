@@ -10,3 +10,6 @@ Disallow: /google29d76ae4761589a6.html
 Disallow: /googlehostedservice.html
 Disallow: /y_key_e18bb0984113f167.html
 Disallow: /minifier.php
+
+User-agent: YottaaMonitor
+Disallow: /
