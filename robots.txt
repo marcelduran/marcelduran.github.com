@@ -4,6 +4,4 @@ User-agent: YottaaMonitor
 Disallow: /
 
 User-agent: *
-Crawl-delay: 10
 Disallow: 
-
