@@ -1,9 +1,10 @@
-﻿---
-layout: default
-title: Resume :: Marcel Duran :: Front End Engineer
-metadata:
-    - {name: keywords, content: resume,front end,engineer,javascript,web,performance,optimization,yahoo!,wpo,rtl,a11y,accessibility,ajax,web2.0,scrum,yui,json,development,software,mysql,php,xml,design,patterns,java,c,c++,c#,greasemonkey,jslint}
-    - {name: description, content: Front End Engineer expert in JavaScript and Web Performance Optimization}
 ---
-
-{% include resume-new.md %}
+layout: default
+title: "Resume :: Marcel Duran :: Front End Engineer"
+metadata:
+- {name: keywords, content: resume,front end,engineer,javascript,web,performance,optimization,yahoo!,wpo,yslow,rtl,a11y,accessibility,mobile,ajax,web2.0,scrum,yui,json,development,software,mysql,php,xml,design,patterns,java,greasemonkey,jslint}
+- {name: description, content: Front End Engineer expert in JavaScript and Web Performance Optimization}
+---
+{% for post in site.posts %}
+{{ post.content }}
+{% endfor %}

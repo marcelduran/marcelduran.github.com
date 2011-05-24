@@ -1,4 +1,4 @@
-﻿# Marcel Duran
+# Marcel Duran
 
 [contact@marcelduran.com](mailto:contact@marcelduran.com "email-me")
 
@@ -96,3 +96,4 @@ _Throughout Voxel experience_
 - Native speaker of Portuguese.
 - Fluent in English.
 - Intermediate in Spanish
+
