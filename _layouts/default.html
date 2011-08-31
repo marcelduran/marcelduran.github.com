@@ -5,9 +5,12 @@
         {% for meta in page.metadata %}
         <meta name="{{ meta.name }}" content="{{ meta.content }}">
         {% endfor %}
+        <style type="text/css">{% include resume.css %}</style>
     </head>
     <body>
-        {{ content }}
-        <script>(function(d,t){var h=d.getElementsByTagName(t)[0],s=d.createElement(t);s.src='http://www.google-analytics.com/ga.js';s.async=1;_gaq=[["_setAccount","UA-3587044-1"],["_trackPageview"],["_trackPageLoadTime"]];setTimeout(function(){h.parentNode.insertBefore(s,h);},0)}(document,'script'));</script>
+        <div id="doc">
+            {{ content }}
+        </div>
+        <script>{% include resume.js %}</script>
     </body>
 </html>
