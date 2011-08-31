@@ -5,12 +5,12 @@
         {% for meta in page.metadata %}
         <meta name="{{ meta.name }}" content="{{ meta.content }}">
         {% endfor %}
-        <style type="text/css">{% include resume.css %}</style>
+        <style type="text/css">{% include resume-min.css %}</style>
     </head>
     <body>
         <div id="doc">
             {{ content }}
         </div>
-        <script>{% include resume.js %}</script>
+        <script>{% include resume-min.js %}</script>
     </body>
 </html>

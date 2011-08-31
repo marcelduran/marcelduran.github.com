@@ -1,7 +1,7 @@
 body {font: 13px/1.231 arial,helvetica,clean,sans-serif;}
 a {text-decoration: none; color: #444;}
 a: hover {text-decoration: underline;}
-#doc {max-width: 974px; margin:0 auto;}
+#doc {max-width: 974px; _width: 974px; margin: 0 auto;}
 h1, .lnk, .upd {text-align: center;}
 h1 {font-size:  138.5%;}
 h2 {border-bottom: 1px solid #666; font-size: 123.1%;}
