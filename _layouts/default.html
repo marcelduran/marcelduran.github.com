@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{{ page.title }}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         {% for meta in page.metadata %}
         <meta name="{{ meta.name }}" content="{{ meta.content }}">
         {% endfor %}
+        <title>{{ page.title }}</title>
         <style type="text/css">{% include resume-min.css %}</style>
     </head>
     <body>

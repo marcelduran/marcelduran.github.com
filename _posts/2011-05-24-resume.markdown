@@ -34,7 +34,6 @@ _updated May 2011_
         *   Analyzed several ways to load the Earth Day campaign module components finding the fastest and lightest one providing the best user experience. Shared the analysis details on [Yahoo! Developer Network blog post](http://developer.yahoo.com/blogs/ydn/posts/2010/04/performance_on_yahoo_search_earth_day_data_uri_ftw/ "Search Earth Day Campaign YDN blog post") which was tweeted by several performance experts, such as Steve Souders, Stoyan Stefanov and [John Resig](http://twitter.com/#!/jeresig/status/12664640008 "John Resig's tweet").
         *   Redesigned Contextual Shortcuts frontend using YUI3 improving its performance without hurting user experience and leveraging accessiblity. Integration with other Yahoo! properties was seamlessly, sandboxed and did not impact user's time to interact. A very unique cross-domain iframe communication was developed for this project which also contributed to other developers across Yahoo!.
         *   Co-authored the JavaScript serving architecture for Contextual Shortcuts, defining the caching and updates flow and servers.
-        *
 
     *   **Front End Engineer @ Frontpage Team**
         _Sep 2008 - Oct 2009 (1 year 2 months)_{: .len}
