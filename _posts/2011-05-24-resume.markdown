@@ -8,18 +8,31 @@
 [contact@marcelduran.com](mailto:contact@marcelduran.com "email-me") [linkedin.com/in/marcelduran](http://www.linkedin.com/in/marcelduran "linked in profile"){: .lin} [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
-_updated May 2011_
+_updated Feb 2012_
 {: .upd}
 
 ## Work Experience
 
 *   **Yahoo! Inc.**{: .cpy}
-    _Sep 2008 - present (2 years 9 months)_{: .len}
+    _Sep 2008 - present (3 years 6 months)_{: .len}
 
     *   **Front End Lead @ Exceptional Performance Team**
-        _Nov 2010 - present (7 months)_{: .len}
+        _Nov 2010 - present (1 year 4 months)_{: .len}
 
-        *   YSlow
+        *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow)
+        *   Refactored YSlow architecture to MVC in order to port to major browsers extensions and non-browser environments;
+        *   Ported YSlow as an extension to Google Chrome (80K users) and Apple Safari;
+        *   Brought YSlow into Mobile world as a Bookmarklet using YQL as HTTP header proxy;
+        *   Ported YSlow to command-line through Node.JS/NPM leveraging automation and integration with Gomez Mobile team and WebPageTest;
+        *   Maintained YSlow for Firefox (200K users) up-to-date with Mozilla Firefox 6-week release cycle, establishing good relationship with Mozilla and Firebug team;
+        *   Ported YSlow as an extension to Opera (48K users) being part of Opera's recommended extension;
+        *   Presented YSlow/Performance internal tech-talks and at Yahoo! Frontend Summit 2011;
+        *   Spoke at O'Reilly Velocity Online Conference for 300+ remote audience;
+        *   Spoke at O'Reilly Velocity Conference for 2K+ main track audience;
+        *   Presented Web Performance Optimization 101 tech-talk to 200+ Computer Science students at UCSD;
+        *   Researched and helped cross Yahoo! teams to solve performance/accessibility issues on high-contrast screens which resulted in brand new CSS spriting technique; 
+        *   Blogged on Performance Calendar [2010](http://calendar.perfplanet.com/2010/pushing-beyond-gzipping/) and [2011](http://calendar.perfplanet.com/2011/pure-css3-images-hmm-maybe-later/) where the former was republished at [YDN](http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/) and ended up as part of [HTML5 Bolieriplate project](http://html5boilerplate.com/) webserver configs and the latter published by O'Reilly as an e-book. 
+        *   Won Yahoo! Hackovation Q2 2011 with WebPageTest private instance deployed worldwide (Yahoo! offices and datacenters) with YSlow integration leveraging performance and QA tests, post-outage verification and market competitors comparison by business teams.
 
     *   **Front End Engineer @ Search Team**
         _Oct 2009 - Nov 2010 (1 year 2 months)_{: .len}
@@ -32,7 +45,7 @@ _updated May 2011_
         *   Optimized Trivia Quiz Mail Logout loading time without hurting user previous experience by reducing the number of images (HTTP requests), using CSS3 extensively with fallback for unsupported browsers and lazy loading page components.
         *   Found some unknown IE gradient filter issues and workaround for them.
         *   Analyzed several ways to load the Earth Day campaign module components finding the fastest and lightest one providing the best user experience. Shared the analysis details on [Yahoo! Developer Network blog post](http://developer.yahoo.com/blogs/ydn/posts/2010/04/performance_on_yahoo_search_earth_day_data_uri_ftw/ "Search Earth Day Campaign YDN blog post") which was tweeted by several performance experts, such as Steve Souders, Stoyan Stefanov and [John Resig](http://twitter.com/#!/jeresig/status/12664640008 "John Resig's tweet").
-        *   Redesigned Contextual Shortcuts frontend using YUI3 improving its performance without hurting user experience and leveraging accessiblity. Integration with other Yahoo! properties was seamlessly, sandboxed and did not impact user's time to interact. A very unique cross-domain iframe communication was developed for this project which also contributed to other developers across Yahoo!.
+        *   Redesigned Contextual Shortcuts frontend using YUI3 improving its performance without hurting user experience and leveraging accessibility. Integration with other Yahoo! properties was seamlessly, sandboxed and did not impact user's time to interact. A very unique cross-domain iframe communication was developed for this project which also contributed to other developers across Yahoo!.
         *   Co-authored the JavaScript serving architecture for Contextual Shortcuts, defining the caching and updates flow and servers.
 
     *   **Front End Engineer @ Frontpage Team**
@@ -50,6 +63,7 @@ _updated May 2011_
 
     *   **Throughout Yahoo! experience**
 
+        *   Interviewed and phonescreened frontend engineers candidates.
         *   As a team player, always worked in SCRUM teams, focusing and helping the process.
         *   Attended several tech-talks from introduction to Haskell, Erlang and Thrift to advanced performance techniques.
         *   Very participative on internal discussion lists, specially those related to front end development and performance.
@@ -112,14 +126,15 @@ _updated May 2011_
 
 ## Awards
 
-*   Yahoo! _"You Rock"_ award for RTL Search, Q4 2009
+*   Yahoo! _"You Rock"_ award for Maktoob RTL Search, Q4 2009
 *   Yahoo! _Top 5% Performers_ special grant award, Mar 2011
+*   Yahoo! _Hackovation_ award for WebPageTest private instance worldwide, Q2 2011
 
 ## Skills
 
-*   Performance driven developer.
-*   Outstanding JavaScript skills, including full application development, AJAX, and cross browser compatibility.
-*   Proven ability to analyze complex technical problems and produce solutions, both individually and in teams.
+*   Web Performance Optmization passionate;
+*   Frontend Engineering: JavaScript, HTML(5), CSS(3), cross-browser issues, performance, accessibility, vulnerability, i18n;
+*   Proven ability to analyze complex technical problems and produce solutions, both individually and in teams;
 *   Solid experience creating and architecting general web interactive applications and scalable web applications.
 
 ## Spoken Languages
