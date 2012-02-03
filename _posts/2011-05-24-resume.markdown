@@ -14,10 +14,10 @@ _updated Feb 2012_
 ## Work Experience
 
 *   **Yahoo! Inc.**{: .cpy}
-    _Sep 2008 - present (3 years 6 months)_{: .len}
+    _Sep 2008 - present (3 years 5 months)_{: .len}
 
     *   **Front End Lead @ Exceptional Performance Team**
-        _Nov 2010 - present (1 year 4 months)_{: .len}
+        _Nov 2010 - present (1 year 3 months)_{: .len}
 
         *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow)
         *   Refactored YSlow architecture to MVC in order to port to major browsers extensions and non-browser environments;
