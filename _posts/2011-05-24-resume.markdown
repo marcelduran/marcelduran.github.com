@@ -19,55 +19,56 @@ _updated Feb 2012_
     *   **Front End Lead @ Exceptional Performance Team**
         _Nov 2010 - present (1 year 3 months)_{: .len}
 
-        *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow)
+        *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow);
         *   Refactored YSlow architecture to MVC in order to port to major browsers extensions and non-browser environments;
         *   Ported YSlow as an extension to Google Chrome (80K users) and Apple Safari;
         *   Brought YSlow into Mobile world as a Bookmarklet using YQL as HTTP header proxy;
         *   Ported YSlow to command-line through Node.JS/NPM leveraging automation and integration with Gomez Mobile team and WebPageTest;
         *   Maintained YSlow for Firefox (200K users) up-to-date with Mozilla Firefox 6-week release cycle, establishing good relationship with Mozilla and Firebug team;
-        *   Ported YSlow as an extension to Opera (48K users) being part of Opera's recommended extension;
-        *   Made YSlow more social by adding Facebook and Twitter buttons encouraging users to share their results linking back to an interactive YSlow scoremeter.
+        *   Ported YSlow as an exteFnsion to Opera (48K users) being part of Opera's recommended extension;
+        *   Presented tech-talk to Facebook Site Speed team at Facebook HQ;
+        *   Made YSlow more social by adding Facebook and Twitter buttons encouraging users to share their results linking back to an interactive YSlow scoremeter;
         *   Presented YSlow/Performance internal tech-talks and at Yahoo! Frontend Summit 2011;
         *   Spoke at O'Reilly Velocity Online Conference for 300+ remote audience;
         *   Spoke at O'Reilly Velocity Conference for 2K+ main track audience;
         *   Presented Web Performance Optimization 101 tech-talk to 200+ Computer Science students at UCSD;
         *   Researched and helped cross Yahoo! teams to solve performance/accessibility issues on high-contrast screens which resulted in brand new CSS spriting technique; 
-        *   Blogged on Performance Calendar [2010](http://calendar.perfplanet.com/2010/pushing-beyond-gzipping/) and [2011](http://calendar.perfplanet.com/2011/pure-css3-images-hmm-maybe-later/) where the former was republished at [YDN](http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/) and ended up as part of [HTML5 Bolieriplate project](http://html5boilerplate.com/) webserver configs and the latter published by O'Reilly as an e-book. 
+        *   Blogged on Performance Calendar [2010](http://calendar.perfplanet.com/2010/pushing-beyond-gzipping/) and [2011](http://calendar.perfplanet.com/2011/pure-css3-images-hmm-maybe-later/) where the former was republished at [YDN](http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/) and ended up as part of [HTML5 Bolieriplate project](http://html5boilerplate.com/) webserver configs and the latter published by O'Reilly as an e-book;
         *   Won Yahoo! Hackovation Q2 2011 with WebPageTest private instance deployed worldwide (Yahoo! offices and datacenters) with YSlow integration leveraging performance and QA tests, post-outage verification and market competitors comparison by business teams.
 
     *   **Front End Engineer @ Search Team**
         _Oct 2009 - Nov 2010 (1 year 2 months)_{: .len}
 
-        *   Developed Yahoo! Maktoob Search Result Page, the first Yahoo! RTL (right-to-left) product, getting up to speed with the current Global Search Platform and RTL research in order to deliver in less than 50 days. 
-        *   Shared my RTL experience across Yahoo! teams through tech-talks and consulting.
-        *   Contributed to the i18n team defining company-wide RTL web interaction standard behavior.
-        *   Built Firefox addon ([RTLzr](https://addons.mozilla.org/en-US/firefox/addon/rtlzr/ "RTLzr Firefox Add-on")) to flip LTR/RTL pages during my spare time helping other Yahoo! teams and the external community to easily flip pages on-the-fly.
-        *   Found RTL cross-browser issues and filed bugs for browser vendors.
-        *   Optimized Trivia Quiz Mail Logout loading time without hurting user previous experience by reducing the number of images (HTTP requests), using CSS3 extensively with fallback for unsupported browsers and lazy loading page components.
-        *   Found some unknown IE gradient filter issues and workaround for them.
-        *   Analyzed several ways to load the Earth Day campaign module components finding the fastest and lightest one providing the best user experience. Shared the analysis details on [Yahoo! Developer Network blog post](http://developer.yahoo.com/blogs/ydn/posts/2010/04/performance_on_yahoo_search_earth_day_data_uri_ftw/ "Search Earth Day Campaign YDN blog post") which was tweeted by several performance experts, such as Steve Souders, Stoyan Stefanov and [John Resig](http://twitter.com/#!/jeresig/status/12664640008 "John Resig's tweet").
-        *   Redesigned Contextual Shortcuts frontend using YUI3 improving its performance without hurting user experience and leveraging accessibility. Integration with other Yahoo! properties was seamlessly, sandboxed and did not impact user's time to interact. A very unique cross-domain iframe communication was developed for this project which also contributed to other developers across Yahoo!.
+        *   Developed Yahoo! Maktoob Search Result Page, the first Yahoo! RTL (right-to-left) product, getting up to speed with the current Global Search Platform and RTL research in order to deliver in less than 50 days; 
+        *   Shared my RTL experience across Yahoo! teams through tech-talks and consulting;
+        *   Contributed to the i18n team defining company-wide RTL web interaction standard behavior;
+        *   Built Firefox addon ([RTLzr](https://addons.mozilla.org/en-US/firefox/addon/rtlzr/ "RTLzr Firefox Add-on")) to flip LTR/RTL pages during my spare time helping other Yahoo! teams and the external community to easily flip pages on-the-fly;
+        *   Found RTL cross-browser issues and filed bugs for browser vendors;
+        *   Optimized Trivia Quiz Mail Logout loading time without hurting user previous experience by reducing the number of images (HTTP requests), using CSS3 extensively with fallback for unsupported browsers and lazy loading page components;
+        *   Found some unknown IE gradient filter issues and workaround for them;
+        *   Analyzed several ways to load the Earth Day campaign module components finding the fastest and lightest one providing the best user experience. Shared the analysis details on [Yahoo! Developer Network blog post](http://developer.yahoo.com/blogs/ydn/posts/2010/04/performance_on_yahoo_search_earth_day_data_uri_ftw/ "Search Earth Day Campaign YDN blog post") which was tweeted by several performance experts, such as Steve Souders, Stoyan Stefanov and [John Resig](http://twitter.com/#!/jeresig/status/12664640008 "John Resig's tweet");
+        *   Redesigned Contextual Shortcuts frontend using YUI3 improving its performance without hurting user experience and leveraging accessibility. Integration with other Yahoo! properties was seamlessly, sandboxed and did not impact user's time to interact. A very unique cross-domain iframe communication was developed for this project which also contributed to other developers across Yahoo!;
         *   Co-authored the JavaScript serving architecture for Contextual Shortcuts, defining the caching and updates flow and servers.
 
     *   **Front End Engineer @ Frontpage Team**
         _Sep 2008 - Oct 2009 (1 year 2 months)_{: .len}
 
-        *   Applied performance best practices on LaTam (Brazil, Mexico, Argentina, USA spanish, Colombia, Venezuela, Chile, Peru) frontpages, when all pages were over the SLA, dropping significantly the overall page load time achieving better results beyond the expectation, improving the final user experience and saving network bandwidth.
-        *   Created and developed an internal tool during my spare time using JavaScript, YUI, PHP and MySQL, for monitoring oversized/not optimized images across Yahoo! properties, warning/emailing the responsible team with reports, improving the page performance on page load measurements.
-        *   Refactored the LatAm frontpages HTML, CSS and JavaScript cutting in more than half the number of requests and page sizes.
-        *   Attended a performance workshop leaded by Nicole Sulivan where she compared the prior LatAm frontpage with the refactored one pointing out the excellent usage of some performance best practices.
-        *   As a front end performance expert, provided performance consulting for different LatAm teams.
-        *   Proposed a better solution for ads team in order to unblock page rendering and promote more parallel downloads in all properties which is already in their roadmap for next generation ads instrumentation. Proved to be better with several tests, data and charts.
-        *   Code reviewed some JavaScript codes across different teams and properties usually pointing out performance caveats.
-        *   Refactored the entire JavaScript code from LatAm frontpages having no warnings from JSLint code quality tool.
+        *   Applied performance best practices on LaTam (Brazil, Mexico, Argentina, USA spanish, Colombia, Venezuela, Chile, Peru) frontpages, when all pages were over the SLA, dropping significantly the overall page load time achieving better results beyond the expectation, improving the final user experience and saving network bandwidth;
+        *   Created and developed an internal tool during my spare time using JavaScript, YUI, PHP and MySQL, for monitoring oversized/not optimized images across Yahoo! properties, warning/emailing the responsible team with reports, improving the page performance on page load measurements;
+        *   Refactored the LatAm frontpages HTML, CSS and JavaScript cutting in more than half the number of requests and page sizes;
+        *   Attended a performance workshop leaded by Nicole Sulivan where she compared the prior LatAm frontpage with the refactored one pointing out the excellent usage of some performance best practices;
+        *   As a front end performance expert, provided performance consulting for different LatAm teams;
+        *   Proposed a better solution for ads team in order to unblock page rendering and promote more parallel downloads in all properties which is already in their roadmap for next generation ads instrumentation. Proved to be better with several tests, data and charts;
+        *   Code reviewed some JavaScript codes across different teams and properties usually pointing out performance caveats;
+        *   Refactored the entire JavaScript code from LatAm frontpages having no warnings from JSLint code quality tool;
         *   Created and developed a hack during my spare time using JavaScript, YUI and PHP on top of an internal sprint management tool where its interface is now presented as a SCRUM board-like application helping remote members of geographically distributed teams to sync up with team's stories and tasks status. With easy and intuitive draggable interface moving tasks across columns became very efficient and also provides a presentation mode, useful for displaying the SCRUM board on a big screen.
 
     *   **Throughout Yahoo! experience**
 
-        *   As a team player, always worked in SCRUM teams, focusing and helping the process.
-        *   Attended several tech-talks, FE summits, YUI conferences and performance/FE meetups.
-        *   Very participative on internal discussion lists, specially those related to front end development and performance.
-        *   Phone-screened and interviewed several FE candidates on-site, providing feedback for the hiring committee.
+        *   As a team player, always worked in SCRUM teams, focusing and helping the process;
+        *   Attended several tech-talks, FE summits, YUI conferences and performance/FE meetups;
+        *   Very participative on internal discussion lists, specially those related to front end development and performance;
+        *   Phone-screened and interviewed on-site several FE candidates providing feedback for the hiring committee.
 
 
 *   **Voxel Ltd.**{: .cpy}
@@ -76,40 +77,40 @@ _updated Feb 2012_
     *   **Engineering Manager @ White Label**
         _Jan 2008 - Aug 2008 (8 months)_{: .len}
 
-        *   Built and led a team of engineers through technical design and implementation, in C#, JavaScript and SQL.
-        *   Oversaw technical direction, scheduling, feature decisions, and coordination with other groups.
-        *   Designed and implemented in C# bots for e-ticket issuing and risk analysis queuing system.
+        *   Built and led a team of engineers through technical design and implementation, in C#, JavaScript and SQL;
+        *   Oversaw technical direction, scheduling, feature decisions, and coordination with other groups;
+        *   Designed and implemented in C# bots for e-ticket issuing and risk analysis queuing system;
         *   Designed and developed .NET data importer web service integrating different tour agencies web sites using XML data structure to push customers orders in order to issue their flight tickets.
 
     *   **Software Engineer @ Pay Cruise**
         _Sep 2007 - Dec 2007 (4 months)_{: .len}
 
-        *   Dramatically changed the previous version of billing process algorithm applying an heuristic procedure based on passenger's expenses along the cruise length, reducing customer's billing statement entries by 80% and reducing the charge backs figures from 14% to 0.2% during South America's summer seasons of Island Cruises ships which led to implement the system onto Royal Caribbean cruise ships.
+        *   Dramatically changed the previous version of billing process algorithm applying an heuristic procedure based on passenger's expenses along the cruise length, reducing customer's billing statement entries by 80% and reducing the charge backs figures from 14% to 0.2% during South America's summer seasons of Island Cruises ships which led to implement the system onto Royal Caribbean cruise ships;
         *   Refactored Pay Cruise in order to be compliant with the Payment Card Industry Data Security Standard, using high level cryptographic algorithms, increasing the data storage/flow security.
 
     *   **Software Engineer @ Cruise Search**
         _Jan 2007 - Sep 2007 (9 months)_{: .len}
 
-        *   Primary Engineer from initial design through launching the public web application.
-        *   Designed web application to support both ASP and B2C models, currently being used by more then 100 travel agencies and above one thousand users per day resulting in approximately 50 reservations daily.
-        *   Drove performance analysis and optimization for web requests fulfilling the YSlow 13 rules and improving the user experience response.
-        *   Developed a FTP flat file downloader in C# which daily parses and imports into database updated cruises prices and a watchdog that reports when error or abnormality on FTP downloader occurs.
+        *   Primary Engineer from initial design through launching the public web application;
+        *   Designed web application to support both ASP and B2C models, currently being used by more then 100 travel agencies and above one thousand users per day resulting in approximately 50 reservations daily;
+        *   Drove performance analysis and optimization for web requests fulfilling the YSlow 13 rules and improving the user experience response;
+        *   Developed a FTP flat file downloader in C# which daily parses and imports into database updated cruises prices and a watchdog that reports when error or abnormality on FTP downloader occurs;
         *   Implemented the i18n features of the product using JSON data structure featuring language changing on-the-fly.
 
     *   **Software Engineer @ Naja.NET Framework**
         _Apr 2006 - Dec 2006 (9 months)_{: .len}
 
-        *   Co-created the project original idea which became the base framework for all web projects in the company used by more than 50 developers internally.
-        *   Oversaw feature decisions, algorithm analysis and coordination with other team members.
-        *   Developed in C# and JavaScript the core of asynchronous method calls providing easy-to-use AJAX for developers.
-        *   Performed browse compatibility tests and adjustments assuring the same control behavior on the most popular web browsers.
-        *   Documented and implemented an on-line help for Naja.NET including methods descriptions, syntaxes and code examples.
-        *   Developed in JavaScript algorithms for data sorting/filtering with optimization.
+        *   Co-created the project original idea which became the base framework for all web projects in the company used by more than 50 developers internally;
+        *   Oversaw feature decisions, algorithm analysis and coordination with other team members;
+        *   Developed in C# and JavaScript the core of asynchronous method calls providing easy-to-use AJAX for developers;
+        *   Performed browse compatibility tests and adjustments assuring the same control behavior on the most popular web browsers;
+        *   Documented and implemented an on-line help for Naja.NET including methods descriptions, syntaxes and code examples;
+        *   Developed in JavaScript algorithms for data sorting/filtering with optimization;
         *   Designed and developed a complete IATA airport database with ranking and its data retrieval using an optimized SQL stored procedure based on relevance.
 
     *   **Throughout Voxel experience**
 
-        *   Served on the Hiring Committee which makes offer approval or rejection on interview candidates.
+        *   Served on the Hiring Committee which makes offer approval or rejection on interview candidates;
         *   Recognized strong interviewer for engineering candidates and new-hire bootcamp instructor.
 {: .exp}
 
