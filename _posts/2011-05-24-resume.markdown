@@ -1,11 +1,10 @@
 # Marcel Duran
 
 [pdf](resume.pdf "download PDF resume"){: .pdf}
-[doc](resume.pdf "view resume on Google docs"){: .gdc}
-[print](resume.pdf "print resume"){: .prt #prt}
+[print](. "print resume"){: .prt #prt}
 {: .bar}
 
-[contact@marcelduran.com](mailto:contact@marcelduran.com "email-me") [linkedin.com/in/marcelduran](http://www.linkedin.com/in/marcelduran "linked in profile"){: .lin} [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
+[contact@marcelduran.com](mailto:contact@marcelduran.com "email-me") [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
 _updated Feb 2012_
@@ -21,7 +20,7 @@ _updated Feb 2012_
 
         *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow);
         *   Refactored YSlow architecture to MVC in order to port to major browsers extensions and non-browser environments;
-        *   Ported YSlow as an extension to Google Chrome (80K users) and Apple Safari;
+        *   Ported YSlow as an extension to Chrome (80K users) and Apple Safari;
         *   Brought YSlow into Mobile world as a Bookmarklet using YQL as HTTP header proxy;
         *   Ported YSlow to command-line through Node.JS/NPM leveraging automation and integration with Gomez Mobile team and WebPageTest;
         *   Maintained YSlow for Firefox (200K users) up-to-date with Mozilla Firefox 6-week release cycle, establishing good relationship with Mozilla and Firebug team;
@@ -80,7 +79,7 @@ _updated Feb 2012_
         *   Built and led a team of engineers through technical design and implementation, in C#, JavaScript and SQL;
         *   Oversaw technical direction, scheduling, feature decisions, and coordination with other groups;
         *   Designed and implemented in C# bots for e-ticket issuing and risk analysis queuing system;
-        *   Designed and developed .NET data importer web service integrating different tour agencies web sites using XML data structure to push customers orders in order to issue their flight tickets.
+        *   Designed and developed .NET data importer web service integrating different travel agencies web sites using XML data structure to push customers orders in order to issue their flight tickets.
 
     *   **Software Engineer @ Pay Cruise**
         _Sep 2007 - Dec 2007 (4 months)_{: .len}
@@ -94,7 +93,7 @@ _updated Feb 2012_
         *   Primary Engineer from initial design through launching the public web application;
         *   Designed web application to support both ASP and B2C models, currently being used by more then 100 travel agencies and above one thousand users per day resulting in approximately 50 reservations daily;
         *   Drove performance analysis and optimization for web requests fulfilling the YSlow 13 rules and improving the user experience response;
-        *   Developed a FTP flat file downloader in C# which daily parses and imports into database updated cruises prices and a watchdog that reports when error or abnormality on FTP downloader occurs;
+        *   Developed a FTP flat file downloader in C# which daily parses and imports into database updated cruises prices and a watchdog that reports when error occurs;
         *   Implemented the i18n features of the product using JSON data structure featuring language changing on-the-fly.
 
     *   **Software Engineer @ Naja.NET Framework**
@@ -107,11 +106,6 @@ _updated Feb 2012_
         *   Documented and implemented an on-line help for Naja.NET including methods descriptions, syntaxes and code examples;
         *   Developed in JavaScript algorithms for data sorting/filtering with optimization;
         *   Designed and developed a complete IATA airport database with ranking and its data retrieval using an optimized SQL stored procedure based on relevance.
-
-    *   **Throughout Voxel experience**
-
-        *   Served on the Hiring Committee which makes offer approval or rejection on interview candidates;
-        *   Recognized strong interviewer for engineering candidates and new-hire bootcamp instructor.
 {: .exp}
 
 ## Education
@@ -127,13 +121,12 @@ _updated Feb 2012_
 ## Awards
 
 *   Yahoo! _"You Rock"_ award for Maktoob RTL Search, Q4 2009
-*   Yahoo! _Top 5% Performers_ special grant award, Mar 2011
 *   Yahoo! _Hackovation_ award for WebPageTest private instance worldwide, Q2 2011
 
 ## Skills
 
 *   Web Performance Optmization passionate;
-*   Frontend Engineering: JavaScript, HTML(5), CSS(3), cross-browser issues, performance, accessibility, vulnerability, i18n;
+*   Frontend Engineering: JavaScript, HTML(5), CSS(3), cross-browser issues, performance, accessibility, security, i18n;
 *   Proven ability to analyze complex technical problems and produce solutions, both individually and in teams;
 *   Solid experience creating and architecting general web interactive applications and scalable web applications.
 
