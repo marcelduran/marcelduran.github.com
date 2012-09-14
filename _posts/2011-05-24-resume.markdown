@@ -7,16 +7,25 @@
 [contact@marcelduran.com](mailto:contact@marcelduran.com "email-me") [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
-_updated Feb 2012_
+_updated Sep 2012_
 {: .upd}
 
 ## Work Experience
 
+*   **Twitter Inc.**{: .cpy}
+    _May 2012 - Present (4 months)_{: .len}
+
+    *   **Front End Performance Engineer @ Web-Core Team**
+        _May 2012 - Present (4 months)_{: .len}
+
+        *   Web Performance Optimization for [twitter.com](http://twitter.com) web core framework.
+
+
 *   **Yahoo! Inc.**{: .cpy}
-    _Sep 2008 - present (3 years 5 months)_{: .len}
+    _Sep 2008 - Apr 2012 (3 years 8 months)_{: .len}
 
     *   **Front End Lead @ Exceptional Performance Team**
-        _Nov 2010 - present (1 year 3 months)_{: .len}
+        _Nov 2010 - Apr 2012 (1 year 5 months)_{: .len}
 
         *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow);
         *   Refactored YSlow architecture to MVC in order to port to major browsers extensions and non-browser environments;
@@ -68,44 +77,6 @@ _updated Feb 2012_
         *   Attended several tech-talks, FE summits, YUI conferences and performance/FE meetups;
         *   Very participative on internal discussion lists, specially those related to front end development and performance;
         *   Phone-screened and interviewed on-site several FE candidates providing feedback for the hiring committee.
-
-
-*   **Voxel Ltd.**{: .cpy}
-    _Apr 2006 - Aug 2008 (2 years 5 months)_{: .len}
-
-    *   **Engineering Manager @ White Label**
-        _Jan 2008 - Aug 2008 (8 months)_{: .len}
-
-        *   Built and led a team of engineers through technical design and implementation, in C#, JavaScript and SQL;
-        *   Oversaw technical direction, scheduling, feature decisions, and coordination with other groups;
-        *   Designed and implemented in C# bots for e-ticket issuing and risk analysis queuing system;
-        *   Designed and developed .NET data importer web service integrating different travel agencies web sites using XML data structure to push customers orders in order to issue their flight tickets.
-
-    *   **Software Engineer @ Pay Cruise**
-        _Sep 2007 - Dec 2007 (4 months)_{: .len}
-
-        *   Dramatically changed the previous version of billing process algorithm applying an heuristic procedure based on passenger's expenses along the cruise length, reducing customer's billing statement entries by 80% and reducing the charge backs figures from 14% to 0.2% during South America's summer seasons of Island Cruises ships which led to implement the system onto Royal Caribbean cruise ships;
-        *   Refactored Pay Cruise in order to be compliant with the Payment Card Industry Data Security Standard, using high level cryptographic algorithms, increasing the data storage/flow security.
-
-    *   **Software Engineer @ Cruise Search**
-        _Jan 2007 - Sep 2007 (9 months)_{: .len}
-
-        *   Primary Engineer from initial design through launching the public web application;
-        *   Designed web application to support both ASP and B2C models, currently being used by more then 100 travel agencies and above one thousand users per day resulting in approximately 50 reservations daily;
-        *   Drove performance analysis and optimization for web requests fulfilling the YSlow 13 rules and improving the user experience response;
-        *   Developed a FTP flat file downloader in C# which daily parses and imports into database updated cruises prices and a watchdog that reports when error occurs;
-        *   Implemented the i18n features of the product using JSON data structure featuring language changing on-the-fly.
-
-    *   **Software Engineer @ Naja.NET Framework**
-        _Apr 2006 - Dec 2006 (9 months)_{: .len}
-
-        *   Co-created the project original idea which became the base framework for all web projects in the company used by more than 50 developers internally;
-        *   Oversaw feature decisions, algorithm analysis and coordination with other team members;
-        *   Developed in C# and JavaScript the core of asynchronous method calls providing easy-to-use AJAX for developers;
-        *   Performed browse compatibility tests and adjustments assuring the same control behavior on the most popular web browsers;
-        *   Documented and implemented an on-line help for Naja.NET including methods descriptions, syntaxes and code examples;
-        *   Developed in JavaScript algorithms for data sorting/filtering with optimization;
-        *   Designed and developed a complete IATA airport database with ranking and its data retrieval using an optimized SQL stored procedure based on relevance.
 {: .exp}
 
 ## Education
@@ -114,9 +85,12 @@ _updated Feb 2012_
 
 ## Conferences
 
-*   O'Reilly [Velocity Conference](http://velocityconf.com/velocity2011/public/schedule/speaker/79593 "speaker bio page"), Jun 2011
+*   O'Reilly [Velocity China 2012](http://velocity.oreilly.com.cn/2012/ "conference homepage"), Dec 2012
+*   San Francisco & Silicon Valley [Web Performance Meetup](http://www.meetup.com/SF-Web-Performance-Group/events/72890422/ "meetup info"), Aug 2012
+*   O'Reilly [Velocity Conference 2012](http://velocityconf.com/velocity2012/public/schedule/speaker/79593 "speaker bio page"), Jun 2012
+*   O'Reilly [Velocity Conference 2011](http://velocityconf.com/velocity2011/public/schedule/speaker/79593 "speaker bio page"), Jun 2011
 *   Yahoo! Front End Summit'11, Mar 2011
-*   O'Reilly [Velocity Online Conference](http://en.oreilly.com/velocity-mar2011/public/schedule/speaker/79593 "speaker bio page"), Mar 2011
+*   O'Reilly [Velocity Online Conference 2011](http://en.oreilly.com/velocity-mar2011/public/schedule/speaker/79593 "speaker bio page"), Mar 2011
 
 ## Awards
 
@@ -129,7 +103,3 @@ _updated Feb 2012_
 *   Frontend Engineering: JavaScript, HTML(5), CSS(3), cross-browser issues, performance, accessibility, security, i18n;
 *   Proven ability to analyze complex technical problems and produce solutions, both individually and in teams;
 *   Solid experience creating and architecting general web interactive applications and scalable web applications.
-
-## Spoken Languages
-
-*   English, Spanish and Portuguese.
