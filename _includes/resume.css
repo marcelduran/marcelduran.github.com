@@ -9,11 +9,11 @@ h2 {border-bottom: 1px solid #666; font-size: 123.1%;}
 .lnk a {padding: 1px 2em 0 1.5em;}
 .lnk .blg {background-position: 0 -16px;}
 .lnk .git {background-position: 0 -32px;}
+.lnk .twt {background-position: 0 -80px;}
 .bar {position: absolute; right: 1em; top: 1em; padding: 0; margin: 0;}
 .bar a {padding-right: 0.7em; height: 16px; width: 16px; float: left; text-indent: -999em;}
 .bar .pdf {background-position: 0 -48px;}
 .bar .prt {background-position: 0 -64px;}
-.bar .twt {background-position: 0 -80px;}
 .exp {padding: 0;}
 .exp ul {padding-left: 1.5em;}
 .exp ul ul {padding-left: 2.5em;}
