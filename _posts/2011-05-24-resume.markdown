@@ -4,7 +4,7 @@
 [print](. "print resume"){: .prt #prt}
 {: .bar}
 
-[contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me") [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
+[contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me"){: .twt} [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
 _updated Sep 2012_
