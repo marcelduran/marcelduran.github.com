@@ -4,7 +4,7 @@
 [print](. "print resume"){: .prt #prt}
 {: .bar}
 
-[contact@marcelduran.com](mailto:contact@marcelduran.com "email-me") [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
+[contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me") [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
 _updated Sep 2012_
@@ -103,3 +103,9 @@ _updated Sep 2012_
 *   Frontend Engineering: JavaScript, HTML(5), CSS(3), cross-browser issues, performance, accessibility, security, i18n;
 *   Proven ability to analyze complex technical problems and produce solutions, both individually and in teams;
 *   Solid experience creating and architecting general web interactive applications and scalable web applications.
+
+## Pet Projects
+
+*   [YSlow](http://yslow.org);
+*   [QRVoice](http://qrvoice.net);
+*   [YouEdit](http://youed.it).
