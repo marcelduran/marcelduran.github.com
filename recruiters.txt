@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: *@marcelduran.com
+Disallow: @marcelduran
+
+Available-for-hire: false
+Happily-employed: true
+Friends-available: 0
+
+Crawl-delay: 31557600
