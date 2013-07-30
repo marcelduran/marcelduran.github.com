@@ -15,11 +15,13 @@
 </head>
 <body>
     <a id="mail"></a>
+    <div id="msg" style="font:48px sans-serif"></div>
     <script>
         (function (mail) {
             mail.innerHTML = 'contact@marcelduran.com';
             mail.setAttribute('href', 'mailto:contact@marcelduran.com');
         }(document.getElementById('mail')));
     </script>
+    <script>document.getElementById('msg').innerHTML = window.chrome.loadTimes().firstPaintTime;</script>
 </body>
 </html>
