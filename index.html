@@ -1,25 +1,40 @@
 <!doctype html>
 <html>
 <head>
-    <title>Marcel Duran</title>
-    <style type="text/css">
-        a {
-            display: block;
-            font-family: sans-serif;
-            font-size: 250%;
-            padding: 7em 0;
-            text-align: center;
-            text-decoration: none;
-        }
-    </style>
+  <title>Marcel Duran</title>
+  <meta name="description" content="@marcelduran - Web Performance Engineer at Twitter Inc">
+  <meta name="keywords" content="web,performance,optmization,wpo,javascript,twitter,yahoo">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <style>
+    a {
+      font: 60px/1 sans-serif;
+      margin-top: -30px;
+      position: absolute;
+      text-align: center;
+      text-decoration: none;
+      top: 50%;
+      width: 100%;
+    }
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px) {
+      a {
+        font-size: 24px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <a id="mail"></a>
-    <script>
-        (function (mail) {
-            mail.innerHTML = 'contact@marcelduran.com';
-            mail.setAttribute('href', 'mailto:contact@marcelduran.com');
-        }(document.getElementById('mail')));
-    </script>
+  <a id="mail"></a>
+  <script>
+    (function (mail) {
+      var email = [99, 111, 110, 116, 97, 99, 116, 64, 109, 97, 114, 99,
+      101, 108, 100, 117, 114, 97, 110, 46, 99, 111, 109].map(function(i) {
+        return String.fromCharCode(i);
+      }).join('');
+      mail.innerHTML = email;
+      mail.setAttribute('href', 'mailto:' + email);
+    }(document.getElementById('mail')));
+  </script>
 </body>
 </html>
