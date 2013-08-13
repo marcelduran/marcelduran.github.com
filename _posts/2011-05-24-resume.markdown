@@ -4,21 +4,37 @@
 [print](. "print resume"){: .prt #prt}
 {: .bar}
 
-[contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me"){: .twt} [javascriptrules.com](http://javascriptrules.com "my blog"){: .blg} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
+[contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me"){: .twt} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
-_updated Sep 2012_
+_updated Aug 2013_
 {: .upd}
 
 ## Work Experience
 
 *   **Twitter Inc.**{: .cpy}
-    _May 2012 - Present (4 months)_{: .len}
+    _May 2012 - Present (1 year 3 months)_{: .len}
 
-    *   **Front End Performance Engineer @ Web-Core Team**
-        _May 2012 - Present (4 months)_{: .len}
+    *   **Web Performance Engineer**
+        _May 2012 - Present (1 year 3 months)_{: .len}
 
-        *   Web Performance Optimization for [twitter.com](http://twitter.com) web core framework.
+        *   Profiled and found a 200ms seconds performance regression on new [twitter.com](https://twitter.com) framework related to CSS link tags and fixed with a non-trivial web performance optimization technique putting user experience latency back to normal;
+        *   Proposed, designed and implemented a tool (codename Peregrine) to prevent web performance regression powered by [WebPageTest](http://www.webpagetest.org/) and NodeJS, triggered both on demand by developers to compare pre-commit branches performance and automatically plugged into continuous integration building process;
+        *   Wrapped WebPageTest API from Peregrine project as an open source standalone NodeJS module and command line tool;
+        *   Spoke about Twitter performance related work and YSlow in international and local conferences: O'Reilly Velocity Santa Clara and China, Highload++ Moscow and BrazilJS;
+        *   Integrated WebPageTest through [WebPageTest-API Wrapper](http://marcelduran.com/webpagetest-api/) both as command line and NodeJS module into Jenkins, Travis-CI and Drone.io continuous integration solutions to accurately test and measure pages performance metrics agains a defined performance test specs with custom reporters;
+        *   Organized Performance Tech Talks featuring speakers well known in the industry: [Ilya Grigorik](https://twitter.com/igrigorik), [Patrick Meenan](https://twitter.com/patmeenan) and [Philip Tellis](https://twitter.com/bluesmoon);
+        *   Implemented an experiment to inline core CSS for first visit on Twitter home timeline then prefetch the same version from CDN once the page is fully loaded, next visit CSS was fetched from cache. It is still under AB test but pre-production benchmark showed ~400ms latency drop on render time;
+        *   Designed and implemented a continuous web performance measurement system plugged into pre-production and production servers to monitor and alert performance regression as well as feed a private instance of [HTTPArchive](http://httparchive.org/) for historical data and performance metrics trending;
+        *   Proposed, led, accomplished and won Hackweek project [Twisitor](https://twitter.com/twisitor), a photobooth for visitors to tweet from Twitter HQ which later got open sourced, available to all remote offices and made through [TechCrunch](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/);
+
+
+*   **YSlow Open Source Project**{: .cpy}
+    _May 2012 - Present (1 year 3 months)_{: .len}
+
+    *   Designed and built YSlow for PhantomJS as command line yielding a full fledged web performance continuous integration standalone solution;
+    *   Integrated YSlow as command line into Jenkins to test performance and break builds on continuous integration process;
+    *   Added Google PageSpeed as a YSlow ruleset powered by PageSpeed Insights service allowing YSlow to run PageSpeed analysis from its dashboard;
 
 
 *   **Yahoo! Inc.**{: .cpy}
@@ -29,11 +45,11 @@ _updated Sep 2012_
 
         *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow);
         *   Refactored YSlow architecture to MVC in order to port to major browsers extensions and non-browser environments;
-        *   Ported YSlow as an extension to Chrome (80K users) and Apple Safari;
+        *   Ported YSlow as an extension to Chrome (212K users) and Apple Safari;
         *   Brought YSlow into Mobile world as a Bookmarklet using YQL as HTTP header proxy;
-        *   Ported YSlow to command-line through Node.JS/NPM leveraging automation and integration with Gomez Mobile team and WebPageTest;
-        *   Maintained YSlow for Firefox (200K users) up-to-date with Mozilla Firefox 6-week release cycle, establishing good relationship with Mozilla and Firebug team;
-        *   Ported YSlow as an exteFnsion to Opera (48K users) being part of Opera's recommended extension;
+        *   Ported YSlow to command-line powered by NodeJS leveraging automation and integration with Gomez Mobile team and WebPageTest;
+        *   Maintained YSlow for Firefox (144K users) up-to-date with Mozilla Firefox 6-week release cycle, establishing good relationship with Mozilla and Firebug team;
+        *   Ported YSlow as an extension to Opera (93K users) being part of Opera's recommended extension;
         *   Presented tech-talk to Facebook Site Speed team at Facebook HQ;
         *   Made YSlow more social by adding Facebook and Twitter buttons encouraging users to share their results linking back to an interactive YSlow scoremeter;
         *   Presented YSlow/Performance internal tech-talks and at Yahoo! Frontend Summit 2011;
@@ -83,9 +99,20 @@ _updated Sep 2012_
 
 *   B.S., Computer Science, Universidade Presbiteriana Mackenzie, 2007. GPA 3.5 _cum laude_
 
+## Publications
+
+*   WebPageTest, The Definitive Guide - coming soon
+*   O'Reilly [Web Performance Daybook - Volume Two](http://shop.oreilly.com/product/0636920025955.do) - Chapter 11: Pure CSS3 Images? Hmm, Maybe Later, Jun 2012
+*   [Performance Calendar](http://calendar.perfplanet.com/), Dec 2010,2011,2012
+*   [Yahoo! Developer Network Blog](http://developer.yahoo.com/blogs/author/marcel-duran/), Apr 2010, Dec 2010, Feb, 2012
+*   [YUI Blog - Next Gen YSlow powered by YUI](http://www.yuiblog.com/blog/2011/07/18/next-gen-yslow-powered-by-yui/), Jul 2011
+
 ## Conferences
 
-*   O'Reilly [Velocity China 2012](http://velocity.oreilly.com.cn/2012/ "conference homepage"), Dec 2012
+*   [BrazilJS Conf 2013](http://braziljs.com.br/en/), Aug 2013
+*   O'Reilly [Velocity Conference 2013](http://velocityconf.com/velocity2013/public/schedule/speaker/79593 "speaker bio page"), Jun 2013
+*   O'Reilly [Velocity China 2012](http://velocity.oreilly.com.cn/2012/index.php?func=autobio&id=36 "speaker bio page"), Dec 2012
+*   [HighLoad++ Moscow 2012](http://2012.highload.co/ "conference homepage"), Oct 2012
 *   San Francisco & Silicon Valley [Web Performance Meetup](http://www.meetup.com/SF-Web-Performance-Group/events/72890422/ "meetup info"), Aug 2012
 *   O'Reilly [Velocity Conference 2012](http://velocityconf.com/velocity2012/public/schedule/speaker/79593 "speaker bio page"), Jun 2012
 *   O'Reilly [Velocity Conference 2011](http://velocityconf.com/velocity2011/public/schedule/speaker/79593 "speaker bio page"), Jun 2011
@@ -94,18 +121,15 @@ _updated Sep 2012_
 
 ## Awards
 
-*   Yahoo! _"You Rock"_ award for Maktoob RTL Search, Q4 2009
+*   Twitter _Hackweek_ winner for [Twisitor](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/), Q1 2013
 *   Yahoo! _Hackovation_ award for WebPageTest private instance worldwide, Q2 2011
+*   Yahoo! _You Rock_ award for Maktoob RTL Search, Q4 2009
 
-## Skills
+## Side Projects
 
-*   Web Performance Optmization passionate;
-*   Frontend Engineering: JavaScript, HTML(5), CSS(3), cross-browser issues, performance, accessibility, security, i18n;
-*   Proven ability to analyze complex technical problems and produce solutions, both individually and in teams;
-*   Solid experience creating and architecting general web interactive applications and scalable web applications.
-
-## Pet Projects
-
-*   [YSlow](http://yslow.org);
-*   [QRVoice](http://qrvoice.net);
-*   [YouEdit](http://youed.it).
+*   [YSlow](http://yslow.org)
+*   [WebPageTest-API Wrapper](http://marcelduran.com/webpagetest-api/)
+*   [BrowserDiet](http://browserdiet.com/)
+*   [QRVoice](http://qrvoice.net)
+*   [WaitNext](http://waitnext.com)
+*   [SleeveFaceMe](http://sleeveface.me/)
