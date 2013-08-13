@@ -18,7 +18,7 @@ _updated Aug 2013_
     *   **Web Performance Engineer**
         _May 2012 - Present (1 year 3 months)_{: .len}
 
-        *   Profiled and found a 200ms seconds performance regression on new [twitter.com](https://twitter.com) framework related to CSS link tags and fixed with a non-trivial web performance optimization technique putting user experience latency back to normal;
+        *   Profiled and found a 200ms performance regression on new [twitter.com](https://twitter.com) framework related to CSS link tags and fixed with a non-trivial web performance optimization technique putting user experience latency back to normal;
         *   Proposed, designed and implemented a tool (codename Peregrine) to prevent web performance regression powered by [WebPageTest](http://www.webpagetest.org/) and NodeJS, triggered both on demand by developers to compare pre-commit branches performance and automatically plugged into continuous integration building process;
         *   Wrapped WebPageTest API from Peregrine project as an open source standalone NodeJS module and command line tool;
         *   Spoke about Twitter performance related work and YSlow in international and local conferences: O'Reilly Velocity Santa Clara and China, Highload++ Moscow and BrazilJS;
