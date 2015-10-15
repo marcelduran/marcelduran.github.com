@@ -6,19 +6,19 @@
   <meta name="keywords" content="web,performance,optmization,webperf,wpo,javascript,yslow,webpagetest,google,youtube,twitter,yahoo">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <style>
-    a {
+    body::after {
       font: 60px/1 sans-serif;
       margin-top: -30px;
       position: absolute;
       text-align: center;
-      text-decoration: none;
       top: 50%;
-      width: 100%;
+      left: 0;
+      right: 0;
     }
     @media only screen 
     and (min-device-width : 320px) 
     and (max-device-width : 480px) {
-      a {
+      body::after {
         font-size: 24px;
         margin-top: -12px;
       }
@@ -26,16 +26,15 @@
   </style>
 </head>
 <body>
-  <a id="mail"></a>
   <script>
-    (function (mail) {
-      var email = [99, 111, 110, 116, 97, 99, 116, 64, 109, 97, 114, 99,
-      101, 108, 100, 117, 114, 97, 110, 46, 99, 111, 109].map(function(i) {
+    (function (d, m) {
+      m = [99, 111, 110, 116, 97, 99, 116, 64, 109, 97, 114, 99, 101, 108,
+           100, 117, 114, 97, 110, 46, 99, 111, 109].map(function(i) {
         return String.fromCharCode(i);
       }).join('');
-      mail.innerText = email;
-      mail.setAttribute('href', 'mailto:' + email);
-    }(document.getElementById('mail')));
+      d.head.appendChild(d.createElement('style')).innerHTML =
+          'body::after{content:"' + m + '";}';
+    }(document));
   </script>
 </body>
 </html>
