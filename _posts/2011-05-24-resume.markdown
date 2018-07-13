@@ -7,16 +7,29 @@
 [contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me"){: .twt} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
-_updated Aug 2013_
+_updated Jul 2018_
 {: .upd}
 
 ## Work Experience
 
+*   **Google Inc.**{: .cpy}
+    _Nov 2013 - Present_{: .len}
+
+    *   **Software Engineer @ Ads**
+        _Jan 2018 - Present_{: .len}
+        
+        *   A bunch of stuff.
+
+    *   **Web Performance Engineer @ YouTube**
+        _Nov 2013 - Jan 2018 (4 year 2 months)_{: .len}
+        
+        *   Lots and lots of cool stuff.
+
 *   **Twitter Inc.**{: .cpy}
-    _May 2012 - Present (1 year 3 months)_{: .len}
+    _May 2012 - Nov 2013 (1 year 6 months)_{: .len}
 
     *   **Web Performance Engineer**
-        _May 2012 - Present (1 year 3 months)_{: .len}
+        _May 2012 - Nov 2013 (1 year 6 months)_{: .len}
 
         *   Profiled and found a 200ms performance regression on new [twitter.com](https://twitter.com) framework related to CSS link tags and fixed with a non-trivial web performance optimization technique putting user experience latency back to normal;
         *   Proposed, designed and implemented a tool (codename Peregrine) to prevent web performance regression powered by [WebPageTest](http://www.webpagetest.org/) and NodeJS, triggered both on demand by developers to compare pre-commit branches performance and automatically plugged into continuous integration building process;
@@ -30,7 +43,7 @@ _updated Aug 2013_
 
 
 *   **YSlow Open Source Project**{: .cpy}
-    _May 2012 - Present (1 year 3 months)_{: .len}
+    _May 2012 - Present _{: .len}
 
     *   Designed and built YSlow for PhantomJS as command line yielding a full fledged web performance continuous integration standalone solution;
     *   Integrated YSlow as command line into Jenkins to test performance and break builds on continuous integration process;
@@ -101,7 +114,7 @@ _updated Aug 2013_
 
 ## Publications
 
-*   WebPageTest, The Definitive Guide - coming soon
+*   O'Reilly [Using WebPageTest, Web Performance Testing for Novices and Power Users](http://usingwpt.com)
 *   O'Reilly [Web Performance Daybook - Volume Two](http://shop.oreilly.com/product/0636920025955.do) - Chapter 11: Pure CSS3 Images? Hmm, Maybe Later, Jun 2012
 *   [Performance Calendar](http://calendar.perfplanet.com/), Dec 2010,2011,2012
 *   [Yahoo! Developer Network Blog](http://developer.yahoo.com/blogs/author/marcel-duran/), Apr 2010, Dec 2010, Feb, 2012
