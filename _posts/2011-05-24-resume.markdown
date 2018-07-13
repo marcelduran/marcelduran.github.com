@@ -140,9 +140,7 @@ _updated Jul 2018_
 
 ## Side Projects
 
-*   [YSlow](http://yslow.org)
 *   [WebPageTest-API Wrapper](http://marcelduran.com/webpagetest-api/)
+*   [YSlow](http://yslow.org)
 *   [BrowserDiet](http://browserdiet.com/)
 *   [QRVoice](http://qrvoice.net)
-*   [WaitNext](http://waitnext.com)
-*   [SleeveFaceMe](http://sleeveface.me/)
