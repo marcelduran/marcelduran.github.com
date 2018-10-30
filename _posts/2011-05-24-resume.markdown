@@ -40,7 +40,7 @@ _updated Oct 2018_
         *   Proposed, led and won the Twitter hackweek project: [Twisitor](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/)
 
 *   **YSlow Open Source Project**{: .cpy}
-    _May 2012 - Present _{: .len}
+    _May 2012 - Present_{: .len}
     
     *   Core project maintainer.
     
