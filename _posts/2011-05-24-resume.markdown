@@ -7,7 +7,7 @@
 [contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me"){: .twt} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
-_updated Jul 2018_
+_updated Oct 2018_
 {: .upd}
 
 ## Work Experience
@@ -15,113 +15,74 @@ _updated Jul 2018_
 *   **Google Inc.**{: .cpy}
     _Nov 2013 - Present_{: .len}
 
-    *   **Software Engineer @ Ads**
+    *   **Web Performance Engineer @ Ads**
         _Jan 2018 - Present_{: .len}
         
-        *   A bunch of stuff.
+        *   Responsible for AdWords web desktop client latency, including instrumentation, analysis, and optmization experiments.
+        *   Worked closely with V8 and Dart engineers to optmize AdWords performance.
 
     *   **Web Performance Engineer @ YouTube**
         _Nov 2013 - Jan 2018 (4 year 2 months)_{: .len}
         
-        *   Lots and lots of cool stuff.
+        *   Instrumented YouTube web desktop client for web performance analysis.
+        *   Added several performance metrics to YouTube lifecycle as well as increased accuracy of key metrics and log volumes.
+        *   Automated the process of detecting regression and alerting engineers before pushing to production.
+        *   Worked with w3c web perf group to get bytes related information onto resource timing API.
 
 *   **Twitter Inc.**{: .cpy}
     _May 2012 - Nov 2013 (1 year 6 months)_{: .len}
 
     *   **Web Performance Engineer**
         _May 2012 - Nov 2013 (1 year 6 months)_{: .len}
-
-        *   Profiled and found a 200ms performance regression on new [twitter.com](https://twitter.com) framework related to CSS link tags and fixed with a non-trivial web performance optimization technique putting user experience latency back to normal;
-        *   Proposed, designed and implemented a tool (codename Peregrine) to prevent web performance regression powered by [WebPageTest](http://www.webpagetest.org/) and NodeJS, triggered both on demand by developers to compare pre-commit branches performance and automatically plugged into continuous integration building process;
-        *   Wrapped WebPageTest API from Peregrine project as an open source standalone NodeJS module and command line tool;
-        *   Spoke about Twitter performance related work and YSlow in international and local conferences: O'Reilly Velocity Santa Clara and China, Highload++ Moscow and BrazilJS;
-        *   Integrated WebPageTest through [WebPageTest-API Wrapper](http://marcelduran.com/webpagetest-api/) both as command line and NodeJS module into Jenkins, Travis-CI and Drone.io continuous integration solutions to accurately test and measure pages performance metrics agains a defined performance test specs with custom reporters;
-        *   Organized Performance Tech Talks featuring speakers well known in the industry: [Ilya Grigorik](https://twitter.com/igrigorik), [Patrick Meenan](https://twitter.com/patmeenan) and [Philip Tellis](https://twitter.com/bluesmoon);
-        *   Implemented an experiment to inline core CSS for first visit on Twitter home timeline then prefetch the same version from CDN once the page is fully loaded, next visit CSS was fetched from cache. It is still under AB test but pre-production benchmark showed ~400ms latency drop on render time;
-        *   Designed and implemented a continuous web performance measurement system plugged into pre-production and production servers to monitor and alert performance regression as well as feed a private instance of [HTTPArchive](http://httparchive.org/) for historical data and performance metrics trending;
-        *   Proposed, led, accomplished and won Hackweek project [Twisitor](https://twitter.com/twisitor), a photobooth for visitors to tweet from Twitter HQ which later got open sourced, available to all remote offices and made through [TechCrunch](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/);
-
+        
+        *   Open sourced WebPageTest API CLI/Node.JS wrapper.
+        *   Analyzed, proposed and implemented several web performance opmizations for Twitter web desktop.
+        *   Proposed, led and won the Twitter hackweek project: [Twisitor](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/)
 
 *   **YSlow Open Source Project**{: .cpy}
     _May 2012 - Present _{: .len}
-
-    *   Designed and built YSlow for PhantomJS as command line yielding a full fledged web performance continuous integration standalone solution;
-    *   Integrated YSlow as command line into Jenkins to test performance and break builds on continuous integration process;
-    *   Added Google PageSpeed as a YSlow ruleset powered by PageSpeed Insights service allowing YSlow to run PageSpeed analysis from its dashboard;
-
+    
+    *   Core project maintainer.
+    
 
 *   **Yahoo! Inc.**{: .cpy}
     _Sep 2008 - Apr 2012 (3 years 8 months)_{: .len}
 
     *   **Front End Lead @ Exceptional Performance Team**
         _Nov 2010 - Apr 2012 (1 year 5 months)_{: .len}
-
-        *   Opensourced YSlow under [github.com/marcelduran/yslow](https://github.com/marcelduran/yslow);
-        *   Refactored YSlow architecture to MVC in order to port to major browsers extensions and non-browser environments;
-        *   Ported YSlow as an extension to Chrome (212K users) and Apple Safari;
-        *   Brought YSlow into Mobile world as a Bookmarklet using YQL as HTTP header proxy;
-        *   Ported YSlow to command-line powered by NodeJS leveraging automation and integration with Gomez Mobile team and WebPageTest;
-        *   Maintained YSlow for Firefox (144K users) up-to-date with Mozilla Firefox 6-week release cycle, establishing good relationship with Mozilla and Firebug team;
-        *   Ported YSlow as an extension to Opera (93K users) being part of Opera's recommended extension;
-        *   Presented tech-talk to Facebook Site Speed team at Facebook HQ;
-        *   Made YSlow more social by adding Facebook and Twitter buttons encouraging users to share their results linking back to an interactive YSlow scoremeter;
-        *   Presented YSlow/Performance internal tech-talks and at Yahoo! Frontend Summit 2011;
-        *   Spoke at O'Reilly Velocity Online Conference for 300+ remote audience;
-        *   Spoke at O'Reilly Velocity Conference for 2K+ main track audience;
-        *   Presented Web Performance Optimization 101 tech-talk to 200+ Computer Science students at UCSD;
-        *   Researched and helped cross Yahoo! teams to solve performance/accessibility issues on high-contrast screens which resulted in brand new CSS spriting technique; 
-        *   Blogged on Performance Calendar [2010](http://calendar.perfplanet.com/2010/pushing-beyond-gzipping/) and [2011](http://calendar.perfplanet.com/2011/pure-css3-images-hmm-maybe-later/) where the former was republished at [YDN](http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/) and ended up as part of [HTML5 Bolieriplate project](http://html5boilerplate.com/) webserver configs and the latter published by O'Reilly as an e-book;
-        *   Won Yahoo! Hackovation Q2 2011 with WebPageTest private instance deployed worldwide (Yahoo! offices and datacenters) with YSlow integration leveraging performance and QA tests, post-outage verification and market competitors comparison by business teams.
+        
+        *   Led YSlow development for several platforms and open source it.
+        *   Evangelized web performance optimization across Yahoo! and beyond.
 
     *   **Front End Engineer @ Search Team**
         _Oct 2009 - Nov 2010 (1 year 2 months)_{: .len}
-
-        *   Developed Yahoo! Maktoob Search Result Page, the first Yahoo! RTL (right-to-left) product, getting up to speed with the current Global Search Platform and RTL research in order to deliver in less than 50 days; 
-        *   Shared my RTL experience across Yahoo! teams through tech-talks and consulting;
-        *   Contributed to the i18n team defining company-wide RTL web interaction standard behavior;
-        *   Built Firefox addon ([RTLzr](https://addons.mozilla.org/en-US/firefox/addon/rtlzr/ "RTLzr Firefox Add-on")) to flip LTR/RTL pages during my spare time helping other Yahoo! teams and the external community to easily flip pages on-the-fly;
-        *   Found RTL cross-browser issues and filed bugs for browser vendors;
-        *   Optimized Trivia Quiz Mail Logout loading time without hurting user previous experience by reducing the number of images (HTTP requests), using CSS3 extensively with fallback for unsupported browsers and lazy loading page components;
-        *   Found some unknown IE gradient filter issues and workaround for them;
-        *   Analyzed several ways to load the Earth Day campaign module components finding the fastest and lightest one providing the best user experience. Shared the analysis details on [Yahoo! Developer Network blog post](http://developer.yahoo.com/blogs/ydn/posts/2010/04/performance_on_yahoo_search_earth_day_data_uri_ftw/ "Search Earth Day Campaign YDN blog post") which was tweeted by several performance experts, such as Steve Souders, Stoyan Stefanov and [John Resig](http://twitter.com/#!/jeresig/status/12664640008 "John Resig's tweet");
-        *   Redesigned Contextual Shortcuts frontend using YUI3 improving its performance without hurting user experience and leveraging accessibility. Integration with other Yahoo! properties was seamlessly, sandboxed and did not impact user's time to interact. A very unique cross-domain iframe communication was developed for this project which also contributed to other developers across Yahoo!;
-        *   Co-authored the JavaScript serving architecture for Contextual Shortcuts, defining the caching and updates flow and servers.
+        
+        *   Web development of Yahoo! Search features for international markets.
+        *   Analyzed, proposed and implemented several web performance optmizations. 
 
     *   **Front End Engineer @ Frontpage Team**
         _Sep 2008 - Oct 2009 (1 year 2 months)_{: .len}
-
-        *   Applied performance best practices on LaTam (Brazil, Mexico, Argentina, USA spanish, Colombia, Venezuela, Chile, Peru) frontpages, when all pages were over the SLA, dropping significantly the overall page load time achieving better results beyond the expectation, improving the final user experience and saving network bandwidth;
-        *   Created and developed an internal tool during my spare time using JavaScript, YUI, PHP and MySQL, for monitoring oversized/not optimized images across Yahoo! properties, warning/emailing the responsible team with reports, improving the page performance on page load measurements;
-        *   Refactored the LatAm frontpages HTML, CSS and JavaScript cutting in more than half the number of requests and page sizes;
-        *   Attended a performance workshop leaded by Nicole Sulivan where she compared the prior LatAm frontpage with the refactored one pointing out the excellent usage of some performance best practices;
-        *   As a front end performance expert, provided performance consulting for different LatAm teams;
-        *   Proposed a better solution for ads team in order to unblock page rendering and promote more parallel downloads in all properties which is already in their roadmap for next generation ads instrumentation. Proved to be better with several tests, data and charts;
-        *   Code reviewed some JavaScript codes across different teams and properties usually pointing out performance caveats;
-        *   Refactored the entire JavaScript code from LatAm frontpages having no warnings from JSLint code quality tool;
-        *   Created and developed a hack during my spare time using JavaScript, YUI and PHP on top of an internal sprint management tool where its interface is now presented as a SCRUM board-like application helping remote members of geographically distributed teams to sync up with team's stories and tasks status. With easy and intuitive draggable interface moving tasks across columns became very efficient and also provides a presentation mode, useful for displaying the SCRUM board on a big screen.
-
-    *   **Throughout Yahoo! experience**
-
-        *   As a team player, always worked in SCRUM teams, focusing and helping the process;
-        *   Attended several tech-talks, FE summits, YUI conferences and performance/FE meetups;
-        *   Very participative on internal discussion lists, specially those related to front end development and performance;
-        *   Phone-screened and interviewed on-site several FE candidates providing feedback for the hiring committee.
+        
+        *   Web development of core features for yahoo.com portals for Latin America.
+        *   Responsible for web performance optmizations projects.
+        
 {: .exp}
 
 ## Education
 
-*   B.S., Computer Science, Universidade Presbiteriana Mackenzie, 2007. GPA 3.5 _cum laude_
+*   B.S., Computer Science, Universidade Presbiteriana Mackenzie, 2007.
 
 ## Publications
 
-*   O'Reilly [Using WebPageTest, Web Performance Testing for Novices and Power Users](http://usingwpt.com)
-*   O'Reilly [Web Performance Daybook - Volume Two](http://shop.oreilly.com/product/0636920025955.do) - Chapter 11: Pure CSS3 Images? Hmm, Maybe Later, Jun 2012
+*   O'Reilly [Using WebPageTest, Web Performance Testing for Novices and Power Users](http://usingwpt.com), Oct 2015
+*   O'Reilly [Web Performance Daybook - Volume Two](http://shop.oreilly.com/product/0636920025955.do), Jun 2012
 *   [Performance Calendar](http://calendar.perfplanet.com/), Dec 2010,2011,2012
 *   [Yahoo! Developer Network Blog](http://developer.yahoo.com/blogs/author/marcel-duran/), Apr 2010, Dec 2010, Feb, 2012
 *   [YUI Blog - Next Gen YSlow powered by YUI](http://www.yuiblog.com/blog/2011/07/18/next-gen-yslow-powered-by-yui/), Jul 2011
 
 ## Conferences
 
+*   [Uber Destination:Web](https://www.uber.com/p/destination-web/), Sep 2018
 *   [BrazilJS Conf 2013](http://braziljs.com.br/en/), Aug 2013
 *   O'Reilly [Velocity Conference 2013](http://velocityconf.com/velocity2013/public/schedule/speaker/79593 "speaker bio page"), Jun 2013
 *   O'Reilly [Velocity China 2012](http://velocity.oreilly.com.cn/2012/index.php?func=autobio&id=36 "speaker bio page"), Dec 2012
