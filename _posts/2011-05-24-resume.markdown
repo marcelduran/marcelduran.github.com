@@ -18,8 +18,8 @@ _updated Oct 2018_
     *   **Web Performance Engineer @ Ads**
         _Jan 2018 - Present_{: .len}
         
-        *   Responsible for AdWords web desktop client latency, including instrumentation, analysis, and optmization experiments.
-        *   Worked closely with V8 and Dart engineers to optmize AdWords performance.
+        *   Responsible for AdWords web desktop client latency, including instrumentation, analysis, and optimization experiments.
+        *   Worked closely with V8 and Dart engineers to profile and optimize AdWords performance.
 
     *   **Web Performance Engineer @ YouTube**
         _Nov 2013 - Jan 2018 (4 year 2 months)_{: .len}
@@ -36,7 +36,7 @@ _updated Oct 2018_
         _May 2012 - Nov 2013 (1 year 6 months)_{: .len}
         
         *   Open sourced WebPageTest API CLI/Node.JS wrapper.
-        *   Analyzed, proposed and implemented several web performance opmizations for Twitter web desktop.
+        *   Analyzed, proposed and implemented several web performance optimizations for Twitter web desktop.
         *   Proposed, led and won the Twitter hackweek project: [Twisitor](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/)
 
 *   **YSlow Open Source Project**{: .cpy}
@@ -58,13 +58,13 @@ _updated Oct 2018_
         _Oct 2009 - Nov 2010 (1 year 2 months)_{: .len}
         
         *   Web development of Yahoo! Search features for international markets.
-        *   Analyzed, proposed and implemented several web performance optmizations. 
+        *   Analyzed, proposed and implemented several web performance optimizations. 
 
     *   **Front End Engineer @ Frontpage Team**
         _Sep 2008 - Oct 2009 (1 year 2 months)_{: .len}
         
         *   Web development of core features for yahoo.com portals for Latin America.
-        *   Responsible for web performance optmizations projects.
+        *   Responsible for web performance optimization projects.
         
 {: .exp}
 
