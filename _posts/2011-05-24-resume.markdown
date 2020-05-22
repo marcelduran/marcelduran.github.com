@@ -4,10 +4,10 @@
 [print](. "print resume"){: .prt #prt}
 {: .bar}
 
-[contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [@marcelduran](https://twitter.com/marcelduran "follow me"){: .twt} [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
+[contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
-_updated Oct 2018_
+_updated May 2020_
 {: .upd}
 
 ## Work Experience
@@ -17,55 +17,54 @@ _updated Oct 2018_
 
     *   **Web Performance Engineer @ Ads**
         _Jan 2018 - Present_{: .len}
-        
+
         *   Responsible for AdWords web desktop client latency, including instrumentation, analysis, and optimization experiments.
-        *   Worked closely with V8 and Dart engineers to profile and optimize AdWords performance.
 
     *   **Web Performance Engineer @ YouTube**
         _Nov 2013 - Jan 2018 (4 year 2 months)_{: .len}
-        
+
         *   Instrumented YouTube web desktop client for web performance analysis.
         *   Added several performance metrics to YouTube lifecycle as well as increased accuracy of key metrics and log volumes.
         *   Automated the process of detecting regression and alerting engineers before pushing to production.
         *   Worked with w3c web perf group to get bytes related information onto resource timing API.
 
 *   **Twitter Inc.**{: .cpy}
-    _May 2012 - Nov 2013 (1 year 6 months)_{: .len}
+    _May 2012 - Oct 2013 (1 year 6 months)_{: .len}
 
     *   **Web Performance Engineer**
-        _May 2012 - Nov 2013 (1 year 6 months)_{: .len}
-        
+        _May 2012 - Oct 2013 (1 year 6 months)_{: .len}
+
         *   Open sourced WebPageTest API CLI/Node.JS wrapper.
         *   Analyzed, proposed and implemented several web performance optimizations for Twitter web desktop.
         *   Proposed, led and won the Twitter hackweek project: [Twisitor](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/)
 
 *   **YSlow Open Source Project**{: .cpy}
     _May 2012 - Present_{: .len}
-    
+
     *   Core project maintainer.
-    
+
 
 *   **Yahoo! Inc.**{: .cpy}
     _Sep 2008 - Apr 2012 (3 years 8 months)_{: .len}
 
     *   **Front End Lead @ Exceptional Performance Team**
         _Nov 2010 - Apr 2012 (1 year 5 months)_{: .len}
-        
+
         *   Led YSlow development for several platforms and open source it.
         *   Evangelized web performance optimization across Yahoo! and beyond.
 
     *   **Front End Engineer @ Search Team**
         _Oct 2009 - Nov 2010 (1 year 2 months)_{: .len}
-        
+
         *   Web development of Yahoo! Search features for international markets.
         *   Analyzed, proposed and implemented several web performance optimizations. 
 
     *   **Front End Engineer @ Frontpage Team**
         _Sep 2008 - Oct 2009 (1 year 2 months)_{: .len}
-        
+
         *   Web development of core features for yahoo.com portals for Latin America.
         *   Responsible for web performance optimization projects.
-        
+
 {: .exp}
 
 ## Education
@@ -77,7 +76,6 @@ _updated Oct 2018_
 *   O'Reilly [Using WebPageTest, Web Performance Testing for Novices and Power Users](http://usingwpt.com), Oct 2015
 *   O'Reilly [Web Performance Daybook - Volume Two](http://shop.oreilly.com/product/0636920025955.do), Jun 2012
 *   [Performance Calendar](http://calendar.perfplanet.com/), Dec 2010,2011,2012
-*   [Yahoo! Developer Network Blog](http://developer.yahoo.com/blogs/author/marcel-duran/), Apr 2010, Dec 2010, Feb, 2012
 *   [YUI Blog - Next Gen YSlow powered by YUI](http://www.yuiblog.com/blog/2011/07/18/next-gen-yslow-powered-by-yui/), Jul 2011
 
 ## Conferences
@@ -93,15 +91,8 @@ _updated Oct 2018_
 *   Yahoo! Front End Summit'11, Mar 2011
 *   O'Reilly [Velocity Online Conference 2011](http://en.oreilly.com/velocity-mar2011/public/schedule/speaker/79593 "speaker bio page"), Mar 2011
 
-## Awards
-
-*   Twitter _Hackweek_ winner for [Twisitor](http://techcrunch.com/2013/03/22/want-to-see-pictures-of-twitters-office-visitors-meet-twisitor/), Q1 2013
-*   Yahoo! _Hackovation_ award for WebPageTest private instance worldwide, Q2 2011
-*   Yahoo! _You Rock_ award for Maktoob RTL Search, Q4 2009
-
 ## Side Projects
 
 *   [WebPageTest-API Wrapper](http://marcelduran.com/webpagetest-api/)
 *   [YSlow](http://yslow.org)
 *   [BrowserDiet](http://browserdiet.com/)
-*   [QRVoice](http://qrvoice.net)
