@@ -7,7 +7,7 @@
 [contact@marcelduran.com](mailto:contact@marcelduran.com "email me") [github.com/marcelduran](https://github.com/marcelduran "my git repositories"){: .git}
 {: .lnk}
 
-_updated May 2020_
+_updated Jan 2021_
 {: .upd}
 
 ## Work Experience
@@ -15,8 +15,13 @@ _updated May 2020_
 *   **Google Inc.**{: .cpy}
     _Nov 2013 - Present_{: .len}
 
+    *   **Web Performance Engineer @ Search**
+        _Jul 2020 - Present_{: .len}
+
+        *   Desktop Search latency matters.
+
     *   **Web Performance Engineer @ Ads**
-        _Jan 2018 - Present_{: .len}
+        _Jan 2018 - Jun 2020_{: .len}
 
         *   Responsible for AdWords web desktop client latency, including instrumentation, analysis, and optimization experiments.
 
