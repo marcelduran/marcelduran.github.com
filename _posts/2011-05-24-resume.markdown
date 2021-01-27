@@ -21,7 +21,7 @@ _updated Jan 2021_
         *   Desktop Search latency matters.
 
     *   **Web Performance Engineer @ Ads**
-        _Jan 2018 - Jun 2020_{: .len}
+        _Jan 2018 - Jun 2020 (2 years 6 months)_{: .len}
 
         *   Responsible for AdWords web desktop client latency, including instrumentation, analysis, and optimization experiments.
 
