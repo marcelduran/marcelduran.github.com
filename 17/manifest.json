@@ -1,0 +1,36 @@
+{
+  "short_name": "SR17",
+  "name": "California State Route 17 Traffic Cameras",
+  "icons": [
+    {
+      "src": "./sr17.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./sr17-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./sr17-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#006b54",
+  "display": "standalone",
+  "scope": "/17",
+  "theme_color": "#006b54",
+  "shortcuts": [
+    {
+      "name": "How's the traffic at SR17 now?",
+      "short_name": "Now",
+      "description": "View most recent SR 17 traffic cameras",
+      "url": "./index.html",
+      "icons": [{ "src": "./sr17-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "See realtime California State Route 17 traffic cameras"
+}
